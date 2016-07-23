@@ -1,0 +1,53 @@
+{
+   "key": "com.rauliki.supportadmintools",
+   "name": "Support Admin Tools for JIRA Cloud",
+   "version": "1.0",
+   "description": "Plugin for JIRA Admins to allow search in each Admin page of JIRA",
+   "vendor": {
+      "name": "Raul Pelaez",
+      "url": "https://jirasupport.wordpress.com"
+   },
+   "baseUrl": "https://raw.githubusercontent.com/rpelaez/SupportAdminTools/master/",
+   "authentication": {
+      "type": "none"
+   },
+   "modules": {
+      "webSections": [
+        {
+            "key": "links",
+            "location": "system.admin.top.navigation.bar",
+			"weight": 10,
+            "name": {
+                "value": "Jirasupport [SUAJ!]"
+            }
+        }
+    ],   
+    "webItems": [
+      {
+        "location": "links",
+        "weight": 200,
+        "styleClasses": [
+          "webitem",
+          "system-present-webitem"
+        ],
+        "url": "https://chrome.google.com/webstore/detail/jirasupport-admin-tools-f/lmomjjhiaclieneafebehojipblekdjm?authuser=1",
+        "context": "product",
+        "target": {
+          "type": "page"
+        },
+        "tooltip": {
+          "value": "Install in Google Chrome"
+        },
+        "icon": {
+          "width": 16,
+          "height": 16,
+          "url": "/icon.png"
+        },
+        "name": {
+          "value": "Install in Google Chrome"
+        },
+        "key": "install"
+      }
+      ]
+   }
+}
