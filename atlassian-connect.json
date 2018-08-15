@@ -1,13 +1,14 @@
 {
    "key": "com.rauliki.supportadmintools",
    "name": "Support Admin Tools for JIRA Cloud",
-   "version": "1.0",
+   "version": "1.1",
    "description": "Plugin for JIRA Admins to allow search in each Admin page of JIRA",
    "vendor": {
       "name": "Raul Pelaez",
       "url": "https://jirasupport.wordpress.com"
    },
    "baseUrl": "https://raw.githubusercontent.com/rpelaez/SupportAdminTools/master/",
+   "enableLicensing": true,
    "authentication": {
       "type": "none"
    },
